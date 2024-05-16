@@ -3,6 +3,7 @@
   top: 0;
   background-image: linear-gradient(to right, #030303 50%, #59b9ff 50%);
   padding: 20px 0;
+  z-index: 1;
 }
 .navbar-shrink {
   padding: 20px 0;

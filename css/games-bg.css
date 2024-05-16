@@ -30,7 +30,6 @@
 }
 .games-bg__dark--span__line {
   position: relative;
-  z-index: -1;
 }
 .games-bg__dark--img__line {
   position: absolute;
