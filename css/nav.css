@@ -84,7 +84,11 @@ nav {
     display: block !important;
   }
   .nav-menu {
+    display: none;
     padding: 30px 0;
+  }
+  .nav-btn {
+    display: none;
   }
 }
 
