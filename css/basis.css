@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+:root {
+  --title-color: rgba(255, 255, 255, 1);
+}
+html,
+body {
+  color: var(--title-color);
+}
+
+.container {
+  /* 1440 - 2 * 60 + 2 * 20 =  */
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+}

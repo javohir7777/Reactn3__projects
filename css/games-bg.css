@@ -1,0 +1,117 @@
+.games-bg {
+  padding: 200px 0 250px;
+  background-image: linear-gradient(to right, #030303 50%, #59b9ff 50%);
+}
+
+.games-bg__flex {
+  display: flex;
+}
+
+.games-bg__dark--h4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Orbitron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(87, 184, 255, 1);
+  text-transform: uppercase;
+  padding-bottom: 16px;
+}
+.games-bg__dark--h1 {
+  font-family: Orbitron;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86px;
+  text-align: left;
+  padding-bottom: 45px;
+}
+.games-bg__dark--span__line {
+  position: relative;
+  z-index: -1;
+}
+.games-bg__dark--img__line {
+  position: absolute;
+
+  left: 0;
+}
+
+.games-bg__dark--p {
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(153, 153, 153, 1);
+  padding-bottom: 53px;
+}
+
+.games-bg__dark--flex {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.btn {
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  padding: 21px 34px;
+}
+.games-bg__dark--btn1 {
+  background-color: rgba(87, 184, 255, 1);
+  color: var(--title-color);
+  border: none;
+}
+.games-bg__dark--btn2 {
+  color: rgba(255, 255, 255, 1);
+}
+@media (max-width: 1200px) {
+  .games-bg__flex {
+    display: block;
+  }
+  .games-bg__blue {
+    margin-top: 70px;
+  }
+  .games-bg__blue-img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 700px) {
+  .games-bg__blue-img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .games-bg {
+    background-image: linear-gradient(to right, #030303 50%, #030303 50%);
+  }
+  .games-bg__dark--h1 {
+    font-size: 50px;
+  }
+  .games-bg__dark--img__line {
+    width: 100%;
+  }
+
+  .games-bg__dark--flex {
+    display: block;
+  }
+  .btn {
+    margin: 0 auto;
+    display: block;
+    width: 215px;
+  }
+  .games-bg__dark--btn2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .games-bg__dark--h1 {
+    font-size: 30px;
+  }
+}
